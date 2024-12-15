@@ -1,8 +1,11 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import { start } from "./algorithm/algo";
 
 function App() {
+  start();
+
   return (
     <div className="App">
       <header className="App-header">
